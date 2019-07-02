@@ -65,6 +65,10 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+html {
+    font-size: 62.5%
+}
+
 body {
 	width: 1024px;
 	margin: 0 auto;
@@ -100,7 +104,7 @@ nav a {
     text-decoration: none;
     color: white;
     margin: 0 32px;
-    font-size: 14.5px;
+    font-size: 1.45rem;
 }
 
 nav a:hover {
@@ -125,13 +129,13 @@ nav a:hover {
 }
 
 h1 {
-    font-size: 82px;
+    font-size: 8.2rem;
 }
 
 .button {
     border: 1px solid black;
     width: 175px;
-    font-size: 19px;
+    font-size: 1.9rem;
     padding: 5px 10px;
     margin-left: 34.3%;
 }
@@ -167,8 +171,12 @@ h1 {
     margin-bottom: 45px;
 }
 
+.TopMid p {
+    font-size: 1.6rem;
+}
+
 h3 {
-    font-size: 17px;
+    font-size: 1.7rem;
     font-weight: 500;
 }
 
@@ -194,5 +202,5 @@ h3 {
 footer {
     text-align: center;
     margin-top: 45px;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
